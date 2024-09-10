@@ -9,9 +9,9 @@
   <body>
     <header>
       <h1>Sartre's List</h1>
-      <h2>Better-Dressed-People</h2>
+      <h2>Better-Dressed People</h2>
       <nav aria-label="Main Navigation" and role="navigation">
-        <ul>
+        <ul class="nav-list" id="top-nav">
           <li><a href="#">Women's</a></li>
           <li><a href="#">Men's</a></li>
           <li><a href="#">On the Street</a></li>
@@ -23,28 +23,41 @@
     </header>
     <main>
       <article>
-        <img alt="women in orange dress, leaning on blue building" src="src/assets/images/blog-image-1.jpg" />
+        <span class="date">11/12/20</span>
+        <div class="post-title">On the Street in Brooklyn</div>
+        <img
+          alt="women in orange dress, leaning on blue building"
+          src="src/assets/images/blog-image-1.jpg"
+        />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
           quod commodi fuga quas odio laboriosam non distinctio doloremque
           cupiditate saepe. Soluta, incidunt dolor. Alias tempore officiis
           dicta, deleniti accusamus magni!
         </p>
+        <span class="continues">Continues...</span>
       </article>
 
       <article>
-        <img alt="three fashion models" src="src/assets/images/blog-image-2.jpg" />
+        <span class="date">11/11/20</span>
+        <div class="post-title">Vintage in Vogue</div>
+
+        <img
+          alt="three fashion models"
+          src="src/assets/images/blog-image-2.jpg"
+        />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           inventore perspiciatis ipsa consequuntur debitis veniam nostrum, autem
           ea aut quidem vel sequi aliquid tenetur pariatur. Obcaecati suscipit
           accusamus ducimus iure!
         </p>
+        <span class="continues">Continues...</span>
       </article>
     </main>
     <footer>
       <nav aria-label="Main Footer" and role="footer">
-        <ul>
+        <ul class="nav-list" id="bottom-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Women's</a></li>
           <li><a href="#">Men's</a></li>
@@ -55,7 +68,7 @@
           <li><a href="#">Tips</a></li>
         </ul>
       </nav>
-      <span>&copy; 2013 Valet Industries, Inc</span>
+      <span id="copyright">&copy; 2013 Valet Industries, Inc</span>
     </footer>
   </body>
 </html>
